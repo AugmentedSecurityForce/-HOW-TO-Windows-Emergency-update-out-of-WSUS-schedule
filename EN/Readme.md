@@ -1,4 +1,4 @@
-# Objectif
+# Goal
 This document describes how to urgently deploy a Microsoft patch.
 This deployment is for a patch so urgent that it must be done outside of your Company's WSUS schedule.
 
@@ -13,7 +13,7 @@ This deployment is for a patch so urgent that it must be done outside of your Co
 > In the rest of this documentation, I use a dedicated directory on the WSUS server for storing the .msu file.
 > We will use the .msu file "kb3186568"
 
-# Présentation
+# Presentation
 
 Lab presentation : 
 
