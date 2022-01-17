@@ -33,6 +33,7 @@ Présentation du Partage :
 Les fichiers de mises pouvant parfois être volumineux et le réseau n'étant pas toujours stable, il convient de vérifier que le fichier n'a pas été altérer lors du téléversement vers le serveur cible.
 Une fois le téléversement effectué dans le répertoire, il ne reste plus qu'à vérifier que la somme est identique entre le téléchargement sur votre poste et celui du client via la commande Powershell : Get-FileHash -Algorithm SHA256 Fichier
 
+Si vous possedez déjà un Hash : "Valeur_1" -eq "Valeur_2"
 
 # Postes dans le domaine
 
