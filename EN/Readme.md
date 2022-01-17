@@ -33,6 +33,8 @@ Présentation of the Share folder :
 As update files can sometimes be large and the network is not always stable, it is advisable to check that the file has not been altered during the upload to the target server.
 Once the upload has been carried out in the directory, all that remains is to check that the sum is identical between the download on your computer and that of the client via the Powershell command: Get-FileHash -Algorithm SHA256 .\File
 
+If you already have calculated the hash, run "HASHVALUE1" -eq "HASHVALUE2", if it's report "true" that's ok.
+
 # Computer in Active Directory
 
 ## Solution 1 : Scheduled task with automatic execution
